@@ -28,6 +28,7 @@ public class MenuUIManager : MonoBehaviour
         startGame = true;
     }
 
+    // Helps with Inheritance, Encapsulation is done with the input field itself
     public void CowPressed()
     {
         MainManager.instance.animalName = "Cow";
